@@ -76,3 +76,6 @@ chmod +x boot.sh
 
 # clean the cache
 rm -rf $CACHE_DIR
+
+# Install needed vendor files
+php bin/vendors install --reinstall
